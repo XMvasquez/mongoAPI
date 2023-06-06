@@ -10,6 +10,6 @@ const mySchema = new mongoose.Schema({
     message: String,
   });
 
-const ModeloComment = mongoose.model('ModeloComment', mySchema, 'tkdapp_comments');
+const ModeloComment = mongoose.model('ModeloComment', mySchema, 'tkdapp_comments'); //cambiar el nombre de la bd
 
 module.exports = ModeloComment

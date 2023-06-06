@@ -14,6 +14,6 @@ const mySchema = new mongoose.Schema({
     },
 });
 
-const ModeloReaction = mongoose.model('ModeloReaction', mySchema, 'tkdapp_reactions_sumary');
+const ModeloReaction = mongoose.model('ModeloReaction', mySchema, 'tkdapp_reactions_sumary'); //cambiar el nombre al mismo linea 13g
 
 module.exports = ModeloReaction

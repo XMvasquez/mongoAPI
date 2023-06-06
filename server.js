@@ -8,7 +8,7 @@ const port = 8080;
 app.use(cors());
 
 // Conexión a la base de datos MongoDB Atlas
-mongoose.connect("mongodb+srv://beto:admin@cluster0.xtwgr69.mongodb.net/?retryWrites=true&w=majority",{
+mongoose.connect("mongodb+srv://ximenavasquez3410:Vasquez3410@cluster0.qgtpg76.mongodb.net/?retryWrites=true&w=majority",{
   useNewUrlParser: true,
   useUnifiedTopology: true,
   dbName: 'tkdapp' // Reemplaza con el nombre real de tu base de datos
